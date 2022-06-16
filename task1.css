@@ -1,0 +1,122 @@
+
+.heading{
+font-family:  sans-serif;
+text-align: center;
+font-size: 45px;
+font-weight: bolder;
+padding: 10px;
+}
+
+
+
+
+.lorem{
+color: blue;
+
+}
+
+.headtext{
+text-align: center;
+margin-left: 100px;
+margin-right: 100px;
+color: grey;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding: 10px;}
+
+
+
+
+
+
+table,th,td{
+border: 1px solid rgb(192, 190, 190);
+border-collapse: collapse;
+}
+
+
+.flex-container-1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+
+
+
+
+.flex-container-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.flex-item{
+    padding: 5px;
+  
+}
+
+.flex-container-3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   justify-content: center;
+   margin-top: 30px;
+   margin-bottom: 30px;
+    
+}
+
+.flex-container-4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+justify-content: space-around;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+#flex-item-41{
+    order:1;
+}
+
+#flex-item-42{
+    order:2;
+}
+
+#flex-item-43{
+    order:3;
+}
+
+.button1:hover{
+    background-color: white;
+    color: blue;
+    opacity: 0.5;
+}
+
+.button2:hover{
+    background-color: white;
+    color: blue;
+    opacity: 0.5;
+}
+
+a:link{
+    color:blue;
+}
+a:visited{
+
+    color: rgba(190, 40, 227, 0.844);
+}
+a:hover{
+    color: rgba(49, 158, 78, 0.878);
+}
+a:active{
+    color:red;
+}
+
+h3{
+    margin: 0;
+    font-size: 18px;
+}
