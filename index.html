@@ -40,7 +40,7 @@
     
     <hr>
 
-    <h1 class="heading">Lorem Ipsum Dolor <span class="lorem">Lorem Ipsum</span></h1>
+    <h1 class="heading" id="headingtext">Lorem Ipsum Dolor <span class="lorem">Lorem Ipsum</span></h1>
 <p class="headtext">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque perspiciatis aut blanditiis aspernatur eum neque alias dolores atque numquam. Error necessitatibus similique deserunt natus delectus repellat quaerat aliquid quidem a eum consectetur tempore, ex incidunt.</p>
 
 
@@ -126,13 +126,14 @@
 
 <script>
 function myfunction1(){
-
-    alert("You've clicked button-1");
+var btn1=document.getElementById("headingtext");
+btn1.innerHTML="You've have clicked button -1";
 }
 
 function myfunction2(){
+    var btn2=document.getElementById("headingtext");
+btn2.innerHTML="You've have clicked button -2";
 
-alert("You've clicked button-2");
 }
 
 
